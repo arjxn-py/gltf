@@ -52,5 +52,4 @@ function animate(){
 }
 animate()
 
-const controls = new OrbitControls(camera, scene);
-controls.addEventListener('change', renderer);
+const controls = new OrbitControls(camera, canvas);
